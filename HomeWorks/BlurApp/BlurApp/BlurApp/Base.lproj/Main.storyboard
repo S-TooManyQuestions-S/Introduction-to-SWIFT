@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="BlurApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vc6-le-5p8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oXY-VC-XOY">
+                                <rect key="frame" x="5" y="102" width="310" height="276"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F8f-Lv-Zzp">
+                                        <rect key="frame" x="33" y="86" width="244" height="36.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="244" id="NzF-Nb-WyX"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2XP-M9-IJ7">
+                                        <rect key="frame" x="33" y="141.5" width="244" height="36.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="244" id="A8U-dC-NyW"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Forgot password?" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vxr-h0-ndJ">
+                                        <rect key="frame" x="71" y="233" width="168" height="34"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="168" id="zXk-1h-Srr"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sign in" borderStyle="roundedRect" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QyH-a3-y9V">
+                                        <rect key="frame" x="33" y="197" width="244" height="34"/>
+                                        <color key="backgroundColor" red="0.93782883880000001" green="0.76080876590000002" blue="0.33320978280000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="244" id="JiR-oS-cgM"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login to AppCoda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7g-lH-YaG">
+                                        <rect key="frame" x="62.5" y="22" width="185" height="29"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vxr-h0-ndJ" firstAttribute="centerX" secondItem="QyH-a3-y9V" secondAttribute="centerX" id="0F3-Ke-BTA"/>
+                                    <constraint firstItem="k7g-lH-YaG" firstAttribute="centerX" secondItem="oXY-VC-XOY" secondAttribute="centerX" id="4PF-lZ-FT7"/>
+                                    <constraint firstItem="QyH-a3-y9V" firstAttribute="centerX" secondItem="2XP-M9-IJ7" secondAttribute="centerX" id="GS0-pU-mRS"/>
+                                    <constraint firstItem="k7g-lH-YaG" firstAttribute="top" secondItem="oXY-VC-XOY" secondAttribute="top" constant="22" id="HRp-M5-Kaf"/>
+                                    <constraint firstItem="vxr-h0-ndJ" firstAttribute="top" secondItem="QyH-a3-y9V" secondAttribute="bottom" constant="2" id="NkW-Xr-mgS"/>
+                                    <constraint firstAttribute="width" constant="310" id="No9-Fh-OyW"/>
+                                    <constraint firstAttribute="height" constant="276" id="OWV-yp-g6T"/>
+                                    <constraint firstItem="F8f-Lv-Zzp" firstAttribute="top" secondItem="k7g-lH-YaG" secondAttribute="bottom" constant="35" id="PaA-JX-1Xw"/>
+                                    <constraint firstItem="2XP-M9-IJ7" firstAttribute="centerX" secondItem="F8f-Lv-Zzp" secondAttribute="centerX" id="UFo-eP-Dqj"/>
+                                    <constraint firstItem="2XP-M9-IJ7" firstAttribute="top" secondItem="F8f-Lv-Zzp" secondAttribute="bottom" constant="19" id="Uu8-Wl-d8X"/>
+                                    <constraint firstItem="F8f-Lv-Zzp" firstAttribute="centerX" secondItem="k7g-lH-YaG" secondAttribute="centerX" id="ec5-Ve-ekf"/>
+                                    <constraint firstItem="QyH-a3-y9V" firstAttribute="top" secondItem="2XP-M9-IJ7" secondAttribute="bottom" constant="19" id="xh3-gs-CRg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vc6-le-5p8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0kG-AQ-wGS"/>
+                            <constraint firstItem="oXY-VC-XOY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5fT-iJ-BhV"/>
+                            <constraint firstItem="Vc6-le-5p8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="EDp-mI-0pH"/>
+                            <constraint firstItem="Vc6-le-5p8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VdW-W9-1KV"/>
+                            <constraint firstItem="oXY-VC-XOY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aye-gb-E5c"/>
+                            <constraint firstItem="Vc6-le-5p8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zYH-bc-gv6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="Vc6-le-5p8" id="MeX-HX-jwL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

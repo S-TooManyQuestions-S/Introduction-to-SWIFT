@@ -56,7 +56,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     "Facebook":"FB"]
     
     private func requestQuote(for symbol: String){
-        let url = URL(string: "https://cloud.iexapis.com/v1/stock/\(symbol)/quote?token=pk_d5beea434b71472687e9ca7f3df563e0")!
+        let url = URL(string: "https://cloud.iexapis.com/v1/stock/\(symbol)/quote?token=co")!
         let dataTask = URLSession.shared.dataTask(with: url){data, response, error in
            guard
             error == nil,
@@ -195,7 +195,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             self.fillList(data: data)
         }
         thirdTask.resume()
-       
     }
     
     private func fillList(data: Data){

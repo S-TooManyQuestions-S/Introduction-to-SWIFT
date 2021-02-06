@@ -56,15 +56,47 @@
 		6AB6B3E225CE8D400062CDD2 /* FancyButton */ = {
 			isa = PBXGroup;
 			children = (
-				6AB6B3E325CE8D400062CDD2 /* AppDelegate.swift */,
-				6AB6B3E525CE8D400062CDD2 /* SceneDelegate.swift */,
-				6AB6B3E725CE8D400062CDD2 /* ViewController.swift */,
-				6AB6B3E925CE8D400062CDD2 /* Main.storyboard */,
-				6AB6B3EC25CE8D450062CDD2 /* Assets.xcassets */,
-				6AB6B3EE25CE8D450062CDD2 /* LaunchScreen.storyboard */,
-				6AB6B3F125CE8D450062CDD2 /* Info.plist */,
+				6AC9B59625CEB05400CBAE30 /* App */,
+				6AC9B59425CEB04400CBAE30 /* Storyboards */,
+				6AC9B59325CEB03900CBAE30 /* Controllers */,
+				6AC9B59125CEB02E00CBAE30 /* Delegates */,
 			);
 			path = FancyButton;
+			sourceTree = "<group>";
+		};
+		6AC9B59125CEB02E00CBAE30 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				6AB6B3E325CE8D400062CDD2 /* AppDelegate.swift */,
+				6AB6B3E525CE8D400062CDD2 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		6AC9B59325CEB03900CBAE30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6AB6B3E725CE8D400062CDD2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6AC9B59425CEB04400CBAE30 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6AB6B3E925CE8D400062CDD2 /* Main.storyboard */,
+				6AB6B3EE25CE8D450062CDD2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6AC9B59625CEB05400CBAE30 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6AB6B3EC25CE8D450062CDD2 /* Assets.xcassets */,
+				6AB6B3F125CE8D450062CDD2 /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B25KHJDDT4;
-				INFOPLIST_FILE = FancyButton/Info.plist;
+				INFOPLIST_FILE = FancyButton/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B25KHJDDT4;
-				INFOPLIST_FILE = FancyButton/Info.plist;
+				INFOPLIST_FILE = FancyButton/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

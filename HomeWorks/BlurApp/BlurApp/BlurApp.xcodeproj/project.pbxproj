@@ -56,15 +56,47 @@
 		6AB6B3C025CDDA1C0062CDD2 /* BlurApp */ = {
 			isa = PBXGroup;
 			children = (
-				6AB6B3C125CDDA1C0062CDD2 /* AppDelegate.swift */,
-				6AB6B3C325CDDA1C0062CDD2 /* SceneDelegate.swift */,
-				6AB6B3C525CDDA1C0062CDD2 /* LoginViewController.swift */,
-				6AB6B3C725CDDA1C0062CDD2 /* Main.storyboard */,
-				6AB6B3CA25CDDA240062CDD2 /* Assets.xcassets */,
-				6AB6B3CC25CDDA240062CDD2 /* LaunchScreen.storyboard */,
-				6AB6B3CF25CDDA240062CDD2 /* Info.plist */,
+				6AC9B59C25CEB0BF00CBAE30 /* App */,
+				6AC9B59B25CEB0B200CBAE30 /* Storyboards */,
+				6AC9B59A25CEB0A500CBAE30 /* Controllers */,
+				6AC9B59825CEB09A00CBAE30 /* Delegates */,
 			);
 			path = BlurApp;
+			sourceTree = "<group>";
+		};
+		6AC9B59825CEB09A00CBAE30 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				6AB6B3C125CDDA1C0062CDD2 /* AppDelegate.swift */,
+				6AB6B3C325CDDA1C0062CDD2 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		6AC9B59A25CEB0A500CBAE30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6AB6B3C525CDDA1C0062CDD2 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6AC9B59B25CEB0B200CBAE30 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6AB6B3C725CDDA1C0062CDD2 /* Main.storyboard */,
+				6AB6B3CC25CDDA240062CDD2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6AC9B59C25CEB0BF00CBAE30 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6AB6B3CA25CDDA240062CDD2 /* Assets.xcassets */,
+				6AB6B3CF25CDDA240062CDD2 /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B25KHJDDT4;
-				INFOPLIST_FILE = BlurApp/Info.plist;
+				INFOPLIST_FILE = BlurApp/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B25KHJDDT4;
-				INFOPLIST_FILE = BlurApp/Info.plist;
+				INFOPLIST_FILE = BlurApp/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
